@@ -14,7 +14,7 @@ body {
 
 }
 
-.top{
+.top {
     background-color : white;
     padding-top: 50px;
     padding-left: 10%; 
@@ -91,8 +91,8 @@ body {
     font-size: 50px;
 }
 .flex {
-    
-    flex-direction: column;
+
+    flex-direction: column;  
     background-color:white;
     justify-content: space-between;
 }
@@ -104,5 +104,18 @@ span {
 .t2 {
     padding: 30px;
    
+}
+
+.Space {
+    
+    align-content: flex-start ;
+    display: flex;
+    align-items: flex-end;
+}
+
+.jos{
+    align-content: flex-start ;
+    display: flex;
+    align-items: flex-start;
 }
 
