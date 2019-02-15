@@ -6,7 +6,7 @@ padding: 0;
 
 body {
  background-color: lightgray;
- margin-left: 30%;
+ margin-left: 25%;
  margin-right: 25%; 
  font-family: 'Open Sans', 'Montserrat', sans-serif;
 
@@ -70,7 +70,7 @@ body {
         font-size: 16px;
       }
 
- .social {
+.social {
     margin-top: 5%;
     background-color:white;
     display: flex;
@@ -78,14 +78,14 @@ body {
     align-items: center;
     }    
  
- li {
+li {
  margin: 50px ;  
  text-align: center;
  display: inline-block;
 
  }
 
- .fab {
+.fab {
     text-decoration: none;
     text-align: center;
     font-size: 50px;
@@ -94,7 +94,7 @@ body {
 
     flex-direction: column;  
     background-color:white;
-    justify-content: space-between;
+    
 }
 span {
 
@@ -106,11 +106,12 @@ span {
    
 }
 
-
-
-.jos{
-    align-content: flex-start ;
+.jos {
+    
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: right;
+    
 }
 
+  
